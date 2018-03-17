@@ -3,11 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
-      - yarn
-      - yarn cache dir
+      - npm
       - echo " Lint"
-      - yarn lint
-#      - echo " Test "
-#      - yarn test 
       - echo "Building the Code"
-      - yarn build       
+      - npm build       
