@@ -6,4 +6,4 @@ phases:
       - npm
       - echo " Lint"
       - echo "Building the Code"
-      - npm build       
+      - npm run-script build       
