@@ -6,4 +6,8 @@ phases:
       - npm install
       - echo " Lint"
       - echo "Building the Code"
-      - npm run-script build       
+      - npm run-script build
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no        
