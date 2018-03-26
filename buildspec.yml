@@ -9,5 +9,5 @@ phases:
       - npm run-script build
 artifacts:
   files:
-    - '**/*'
-  discard-paths: no        
+    - build/**/*
+  discard-paths: yes        
